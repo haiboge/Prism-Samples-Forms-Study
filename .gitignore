@@ -3,3 +3,11 @@
 ################################################################################
 
 /MCS.PFS/MCS.PFS/obj
+/MCS.PFS/MCS.PFS/bin/Debug/netstandard2.0
+/.vs
+/MCS.PFS/MCS.PFS.Android/bin/Debug
+/MCS.PFS/MCS.PFS.Android/obj
+/MCS.PFS/MCS.PFS.iOS/bin/iPhone/Debug
+/MCS.PFS/MCS.PFS.iOS/obj
+/MCS.PFS/MCS.PFS.UWP/bin/x86/Debug
+/MCS.PFS/MCS.PFS.UWP/obj
