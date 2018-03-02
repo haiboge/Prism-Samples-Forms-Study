@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+            xmlns:local="clr-namespace:MCS.PFS.Views"
+            prism:ViewModelLocator.AutowireViewModel="True"
+            x:Class="MCS.PFS.Views.MainTabbedPage">
+
+    <local:UpcomingShowsPage />
+    <NavigationPage Title="Show List" BarTextColor="White">
+        <x:Arguments>
+            <local:ShowsListPage />
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>

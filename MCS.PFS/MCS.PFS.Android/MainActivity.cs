@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using MCS.PFS.Droid.Services;
+using MCS.PFS.Services;
 using Prism;
 using Prism.Ioc;
 
@@ -26,6 +28,7 @@ namespace MCS.PFS.Droid
         public void RegisterTypes(IContainerRegistry container)
         {
             // Register any platform specific implementations
+            container.Register<ITextToSpeech, TextToSpeach_Android>();
         }
     }
 }
